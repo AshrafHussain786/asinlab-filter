@@ -1,0 +1,33 @@
+.main_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: salmon;
+  min-height: 100vh;
+  padding: 20px 10px;
+}
+.selection_div {  
+  font-size: 25px;  
+  margin: 10px;
+  padding: 20px;
+}
+
+.content_div{
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.emoji{
+    font-size: 50px;
+    margin: 0px;
+}
+button, select {
+  text-transform: none;
+  width: 300px;
+}
